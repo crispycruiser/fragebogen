@@ -1,0 +1,200 @@
+.himmel {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('../images/_1Lastwagen_0002_HImmel.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bordstein {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  background-image: url('../images/_1Lastwagen_0003_Bordstein.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lastwagen {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  right: 10%;
+  bottom: 5%;
+  z-index: 2;
+  background-image: url('../images/_1Lastwagen_0000_Lastwagen.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: shake;
+  animation-duration: 1s;
+  transform-origin:50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.schatten {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  right: 10%;
+  bottom: 3%;
+  background-image: url('../images/_1Lastwagen_0001_Schatten.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vogel {
+  position: absolute;
+}
+
+.vogel._1 {
+  left: 5%;
+  top: 10%;
+  right: auto;
+  bottom: auto;   
+  animation-name: fly1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.vogel._2 {
+  left: auto;
+  top: 10%;
+  right: 15%;
+  bottom: auto;
+    animation-name: fly2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.vogel._3 {
+  left: auto;
+  top: 5%;
+  right: 20%;
+  bottom: auto;
+    animation-name: fly3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.text {
+  position: absolute;
+  left: 22%;
+  top: 32%;
+  right: 15%;
+  width: 25%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 2vw;
+  line-height: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -1px) rotate(-0.5eg);
+  }
+
+  20% {
+    transform: translate(-1px, 0.5px) rotate(0.5deg);
+  }
+
+  30% {
+    transform: translate(0px, 1px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(0.5deg);
+  }
+
+  50% {
+    transform: translate(-1px, 1px) rotate(-0.5deg);
+  }
+
+  60% {
+    transform: translate(-1px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(1px, 1px) rotate(-0.5deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(0.5deg);
+  }
+
+  90% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -1px) rotate(0.5deg);
+  }
+}
+
+@keyframes fly1 {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  66% {
+    transform: translate(180px, -180px) rotate(-20deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(0.5deg);
+  }
+}
+
+@keyframes fly2 {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+
+  66% {
+    transform: translate(50px, -60px) rotate(-10deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(0.5deg);
+  }
+}
+
+@keyframes fly3 {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  66% {
+    transform: translate(-180px, -240px) rotate(-90deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(0.5deg);
+  }
+}
