@@ -1,0 +1,34 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family:'Gill Sans', sans-serif;
+    text-align: center;
+}
+
+.welcome{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tafel-szene{
+    position: relative;
+}
+.bahnhof{
+    position: absolute;
+    width: 100vw;
+    background-color: rgb(126, 126, 126);
+}
+.tafel{
+    position: absolute;
+    top: 100rem;
+    left: 30rem;
+}
+.taube{
+    position: absolute;
+    top: 50rem;
+    right: -20rem;
+}
