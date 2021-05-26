@@ -15,27 +15,64 @@ eine für position off screen.
 Klassen werden durch JS hinzugefügt und removed 
 */
 
-.button{
-    color: black;
-    cursor: pointer;
-    border-radius: 100vw;
-    border: 1px solid black;
-    text-transform: uppercase;
-    font-size: 1vw;
-    padding: 1em 1em;
+.button {
     position: fixed;
-    top: auto;
     bottom: 15%;
     z-index: 1000;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 50%;
+    background-image: url("/Entwurf_3/images/imageBody/Puls.png");
+    background-size: cover;
+    cursor: pointer;
+    animation: pulse 1.5s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
+.button::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, .5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse-shadow 1.5s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 .button:hover {
     background: black;
-    color: white;
 }
 
 .button.active {
     background: darkgrey;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(.8);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(.8);
+    }
+}
+
+@keyframes pulse-shadow {
+    0% {}
+
+    70% {
+        box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
 }
