@@ -44,4 +44,5 @@ h1 {
     background-size: contain;
     height: 300px;
     width: 390px;
+    position: absolute;
 }

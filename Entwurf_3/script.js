@@ -10,11 +10,12 @@ var bahnhof_ani = gsap.to(".bahnhof", {
 document.querySelector("#button_startID").onclick = () => bahnhof_ani.play();
 
 
-var cloudContainer = $("#cloudContainer");
+var $cloudContainer = $("#cloudContainer");
+
 
 for(var i = 0; i <6; i ++){
-    var cloud = $('<div class="cloud"></div>').appendTo(cloudContainer);
+    var cloud = $('<div class="cloud"></div>').appendTo($cloudContainer);
     TweenMax.fromTo(cloud,(Math.random()*15)+15,
-    {left:i*200, right:i*200, top:i*200,opacity:(Math.random()*0.9)+0.1},
-    {left:"100%",ease:Power0.easeNone,delay:Math.random()*15,repeat:-1});
+    {x: "random(-15, 35)",top:i*200,opacity:(Math.random()*0.9)+0.1},
+    {x:"100%",ease:Power0.easeNone,delay:Math.random()*15,repeat:-1});
 };
