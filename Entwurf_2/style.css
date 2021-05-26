@@ -13,13 +13,9 @@ h1 {
 }
 
 .hero {
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
     display: flex;
     height: 100vh;
-    padding: 16px;
+    padding: 1em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,14 +31,6 @@ h1 {
   font-size: 2vw;
   line-height: 1;
   text-transform: uppercase;
-}
-
-.welcome{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .tafel-szene{
