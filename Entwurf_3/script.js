@@ -13,9 +13,9 @@ document.querySelector("#button_startID").onclick = () => bahnhof_ani.play();
 var $cloudContainer = $("#cloudContainer");
 
 
-for(var i = 0; i <6; i ++){
+for(var i = 0; i <8; i ++){
     var cloud = $('<div class="cloud"></div>').appendTo($cloudContainer);
     TweenMax.fromTo(cloud,(Math.random()*15)+15,
-    {x: "random(-15, 35)",top:i*200,opacity:(Math.random()*0.9)+0.1},
-    {x:"100%",ease:Power0.easeNone,delay:Math.random()*15,repeat:-1});
+    {left:-100,top:i*200,opacity:(Math.random()*2)+0.1},
+    {left:"100%",ease:Power4.easeNone,delay:Math.random()*15,repeat:-1});
 };
