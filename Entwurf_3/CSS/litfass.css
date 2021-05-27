@@ -1,0 +1,27 @@
+.litfass{
+    position: absolute;
+    width: 30%;
+    top: 280vh;
+    left: 10vw;
+    z-index: 4;
+}
+
+.litfass_vordergrund{
+    position: absolute;
+    top: 310vh;
+    z-index: 6;
+    width: 100%;
+}
+
+.menschenmenge{
+    position: absolute;
+    top: 290vh;
+    z-index: 3;
+}
+
+.button_litfass {
+    position: absolute;
+    left: 50%;
+    top: 300vh;
+    z-index: 8;
+}

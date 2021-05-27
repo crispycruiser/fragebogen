@@ -1,6 +1,36 @@
+.container_bahnhof{
+    position: relative;
+    /* height: 100vh; */
+
+}
+
 .bahnhof{
     position: absolute;
     top: 80vh;
     width: 100vw;
     height: auto;
+    z-index: 2;
+}   
+
+.tafel{
+    position: absolute;
+    width: 32vw;
+    top: 150vh;
+    left: 34%;
+    right: 34%;
+    z-index: 3;
+}
+
+.button_start{
+    position: absolute;
+    top: 80vh;
+    left:47.25vw;
+    right:47.25vw;
+}
+
+.button_tafel{
+    position: absolute;
+    left: 20%;
+    top: 200vh;
+    z-index: 3;
 }

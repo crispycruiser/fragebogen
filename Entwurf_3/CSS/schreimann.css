@@ -1,0 +1,27 @@
+.schreimann {
+    position: absolute;
+    width: 30%;
+    top: 290vh;
+    left: 50vw;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: center;
+}
+
+.strasse {
+    position: absolute;
+    top: 230vh;
+    z-index: 0;
+    width: 100%;
+    transform: scale(0.5);
+    transform-origin: center;
+}
+
+.laternen {
+    width: 100vw;
+    position: absolute;
+    top: 270vh;
+    z-index: 0;
+    transform: scale(0.5);
+    transform-origin: center;
+}
