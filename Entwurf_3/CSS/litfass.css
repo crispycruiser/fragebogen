@@ -12,8 +12,19 @@
     z-index: 6;
     width: 100%;
 }
+.litfass_vordergrund2{
+    position: absolute;
+    top: 310vh;
+    z-index: 6;
+    width: 100%;
+}
 
 .menschenmenge{
+    position: absolute;
+    top: 290vh;
+    z-index: 3;
+}
+.menschenmenge2{
     position: absolute;
     top: 290vh;
     z-index: 3;

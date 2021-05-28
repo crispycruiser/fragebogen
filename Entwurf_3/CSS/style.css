@@ -2,6 +2,7 @@
 @import "bahnhof.css";
 @import "litfass.css";
 @import "schreimann.css";
+@import "lastwagen.css";
 
 body {
     overflow: hidden;

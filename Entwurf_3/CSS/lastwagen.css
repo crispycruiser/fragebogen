@@ -1,0 +1,19 @@
+.lastwagen_container{
+position: relative;
+}
+
+.lastwagen{
+    position: relative;
+    left: -80vw;
+    top: 20vh;
+    width: 60%
+}
+
+.auto{
+      position: absolute;
+      width: 30%;
+      top: 280vh;
+      right: 20vh;
+      z-index: 4;
+}
+

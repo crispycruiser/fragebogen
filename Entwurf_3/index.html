@@ -11,10 +11,13 @@
 
 <body>
     <div class="hero fade">
+        <button id="HIER_KOMMT_FRAGE_SWITCHER">BUTTON</button>
         <div class="overline">Suhrkamp</div>
         <h1>Max Frisch Fragebogen</h1>
-        <div class="underline">Ein Auszug der über 200 brennenden Fragen des Lebens.</div>
-        <div id="cloudContainer"></div>
+        <div class="underline">
+            <span id="frage_test"></span>
+            Ein Auszug der über 200 brennenden Fragen des Lebens.</div>
+        <!-- <div id="cloudContainer"></div> -->
     </div>
 
     
@@ -32,7 +35,9 @@
         </div>
         <img class="litfass" src="/Entwurf_3/images/imagesLitfass/Litfass.png" alt="Litfass">
         <img class="litfass_vordergrund" src="/Entwurf_3/images/imagesLitfass/Vordergrund.png" alt="Menschenmenge">
+        <img class="litfass_vordergrund2" src="/Entwurf_3/images/imagesLitfass/Vordergrund.png" alt="Menschenmenge">
         <img class="menschenmenge" src="/Entwurf_3/images/imagesLitfass/Menge.png" alt="Menschenmenge">
+        <img class="menschenmenge2" src="/Entwurf_3/images/imagesLitfass/Menge.png" alt="Menschenmenge">
     </div>
 
     <div class="container_schreimann">
@@ -41,8 +46,15 @@
         </div>
         <img class="schreimann" src="/Entwurf_3/images/imagesSchreimann/Schreimann.png" alt="Mann mit Schild">
         <img class="laternen" src="/Entwurf_3/images/imagesSchreimann/Laternen.png" alt="Strassenlaternen">
-        <img class="strasse" src="/Entwurf_3/images/imagesSchreimann/Strasse.png" alt="Menschenmenge">
-        
+        <img class="strasse" src="/Entwurf_3/images/imagesSchreimann/Strasse.png" alt="Strasse">
+    </div>
+
+    <div class="container_lastwagen">
+        <div class="button_schreimann">
+            <button class="button" id="button_schreimannID"></button>
+        </div>
+        <img class="lastwagen" src="/Entwurf_3/images/imagesLastwagen/Lastwagen.png" alt="Lastwagen">
+        <img class="auto" src="/Entwurf_3/images/imagesLastwagen/Auto.png" alt="Auto">
     </div>
 
 
@@ -53,6 +65,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="/Entwurf_3/script.js"></script>
+    <script src="/Entwurf_3/fragen.js"></script>
 </body>
 
 </html>
