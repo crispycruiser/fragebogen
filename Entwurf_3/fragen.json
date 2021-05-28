@@ -1,38 +1,121 @@
 [
     {
         "szene": 1,
-        "fragebogen": 1,
-        "nummer": 12,
-        "frage": "Warum ist die Banane krumm?"
+        "fragebogen": "Fragebogen 1",
+        "nummer": 11,
+        "frage": "Wie alt möchten Sie werden?"
     },
-
-    
     {
         "szene": 1,
-        "fragebogen": 2,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 21,
+        "frage": "Warum?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 1,
+        "frage": "Wissen Sie in der Regel, was Sie hoffen?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 15,
+        "frage": "Wenn Sie jemand in einer unheilbaren Krankheit wissen: machen Sie ihm dann Hoffnungen, die Sie selber als Trug erkennen?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 26,
+        "frage": "Gesetzt den Fall, Sie glauben an einen Gott: kennen Sie ein Anzeichen dafür, dass er Humor hat?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 18,
+        "frage": "Was tun Sie für Geld nicht?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 21,
+        "frage": "Gibt es Freundschaft ohne Affinität im Humor?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 23,
+        "frage": "Auch Soldaten auf fremdem Territorium fallen bekanntlich für die Heimat: wer bestimmt, was Sie der Heimat schulden?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 18,
+        "frage": "Wogegen sind Sie nicht versichert?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 19,
+        "frage": "Wissen Sie, wo Sie begraben sein möchten?"
+    },
+
+
+
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 1",
+        "nummer": 18,
+        "frage": "Wenn Sie sich beiläufig vorstellen, Sie wären nicht geboren worden: beunruhigt Sie diese Vorstellung?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 1,
+        "frage": "Tun Ihnen die Frauen leid?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 3,
+        "frage": "Beneiden Sie manchmal Tiere, die ohne Hoffnung auszukommen scheinen, z.B. Fische in einem Aquarium?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 22,
+        "frage": "Hoffen Sie auf ein Jenseits?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 6",
         "nummer": 5,
-        "frage": "Banane "
-    },
-
-    {
-        "szene": 1,
-        "fragebogen": 3,
-        "nummer": 4,
-        "frage": " krumm?"
+        "frage": "Wieviel Geld möchten Sie besitzen?"
     },
     {
-        "szene": 1,
-        "fragebogen": 4,
-        "nummer": 9,
-        "frage": "Banane asdf krumm?"
+        "szene": 2,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 20,
+        "frage": "Möchten Sie eine reiche Frau?"
     },
     {
-        "szene": 1,
-        "fragebogen": 5,
-        "nummer": 8,
-        "frage": "Banane  qwert krumm?"
+        "szene": 2,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 24,
+        "frage": "Wenn eine langjährige Freundschaft sich verflüchtigt, bedauern Sie dann, dass Freundschaft einmal bestanden hat?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 17,
+        "frage": "Wann fühlen Sie sich als Vater wohler: a. allein mit dem Kind? b. wenn die Mutter dabei ist?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 2,
+        "frage": "Wem gehört Ihres Erachtens beispielsweise die Luft?"
     }
-    
 ]
     
 

@@ -10,12 +10,20 @@
 </head>
 
 <body>
+    <div class="buttons">    
+        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_1">BUTTON 1</button>
+        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_2">BUTTON 2 </button>
+        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_3">BUTTON 3</button>
+        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_4">BUTTON 4</button>
+        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_5">BUTTON 5</button>
+    </div>
     <div class="hero fade">
-        <button id="HIER_KOMMT_FRAGE_SWITCHER">BUTTON</button>
         <div class="overline">Suhrkamp</div>
         <h1>Max Frisch Fragebogen</h1>
+        <!-- hier wird container erstellt um danach frage einzufügen
+            WICHTIG: namensgebung muss exakt so sein wie hier ('coontainerFrage + szenen nummer') damit JS darauf zugreifen kann -->
+        <div id="containerFrage1" class="frageContainer"></div> 
         <div class="underline">
-            <span id="frage_test"></span>
             Ein Auszug der über 200 brennenden Fragen des Lebens.</div>
         <!-- <div id="cloudContainer"></div> -->
     </div>
@@ -27,6 +35,8 @@
         </div> 
         <img class="tafel" id="bahnhof_img" src="/Entwurf_3/images/imagesTafel/tafel.png" alt="Fahrplan Tafel">
         <img class="bahnhof" id="bahnhof_img" src="/Entwurf_3/images/imagesTafel/bahnhof.png" alt="Bahnhof Fassade">
+        <span class="tafel testFrage" id="containerFrage2">asdasd</span>
+
     </div>
 
     <div class="container_litfass">
