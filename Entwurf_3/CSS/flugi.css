@@ -1,0 +1,28 @@
+.container_flugi{
+position: relative;
+}
+
+
+.flugi_float{
+position: relative;
+}
+
+.flugi{
+position: relative;
+top: -190vh;
+width: 60%;
+}
+
+/* Fragen & Switcher */
+#containerFrage5{
+    position: absolute;
+    top: -150vh;
+    left: 10vw;
+    width: 20%;
+    z-index: 2;
+    
+}
+#frage_switcher5{
+    position: absolute;
+    top: -190vh;
+}

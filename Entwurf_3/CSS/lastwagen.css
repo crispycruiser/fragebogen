@@ -17,3 +17,24 @@ position: relative;
       z-index: 4;
 }
 
+.button_lastwagen{
+    position: relative;
+    top: -30vh;
+    left: -20vw;
+    z-index: 10;
+}
+
+/* Fragen & Switcher */
+#containerFrage4{
+    position: absolute;
+    left: -75vw;
+    top: 35vh;
+    width: 20%;
+    z-index: 2;
+    
+}
+#frage_switcher4{
+    position: absolute;
+    left: -10vw;
+    top: 10vh;
+}

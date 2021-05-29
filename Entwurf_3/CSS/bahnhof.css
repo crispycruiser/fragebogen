@@ -1,7 +1,5 @@
 .container_bahnhof{
     position: relative;
-    /* height: 100vh; */
-
 }
 
 .bahnhof{
@@ -35,3 +33,18 @@
     z-index: 3;
 }
 
+#containerFrage1{
+    position: absolute;
+    /* width: 32vw; */
+    top: 160vh;
+    left: 40%;
+    right: 40%;
+    z-index: 100;
+}
+#frage_switcher1{
+    position: absolute;
+    /* width: 32vw; */
+    top: 200vh;
+    right: 20%;
+    z-index: 100;
+}

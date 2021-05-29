@@ -3,6 +3,7 @@
 @import "litfass.css";
 @import "schreimann.css";
 @import "lastwagen.css";
+@import "flugi.css";
 
 body {
     overflow: hidden;
@@ -12,17 +13,9 @@ body {
     padding: 0px;
 }
 
-/* 
-Button erhält 3 klassen: eine für style eine für position on screen und
-eine für position off screen.
-Klassen werden durch JS hinzugefügt und removed 
-*/
-
+/* Szene switch button */
 .button {
     position: absolute;
-    /*top: 80vh;
-    left:47.25vw;
-    right:47.25vw; */
     z-index: 100;
     width: 5vw;
     height:5vw;
@@ -53,10 +46,44 @@ Klassen werden durch JS hinzugefügt und removed
 }
 
 
-.button.active {
-    background: darkgrey;
+
+
+/*button um fragen zu switchen */
+.switch_button {
+    position: absolute;
+    z-index: 100000;
+    width: 2vw;
+    height:2vw;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 51, 51);
+    transition: background-color .4s ease;
+    background-size: cover;
+    cursor: pointer;
+}
+.switch_button:hover {
+    background: rgb(255, 143, 143);
 }
 
+
+/* Fragen */
+.frageContainer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* border: 2px solid black; */
+    color: rgb(255, 51, 51);
+}
+.fragebogen_nummer{
+    font-size: 1vw;
+}
+.frage{
+    font-size: 2vw;
+}
+
+
+/* Button animationen */
 @keyframes pulse {
     0% {
         transform: scale(.8);
@@ -81,30 +108,4 @@ Klassen werden durch JS hinzugefügt und removed
     100% {
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
-}
-
-/* klassen für fragen und button um fragen zu switchen */
-
-.testFrage{
-    font-size: 20px;
-    color: red;
-    background-color: blue;
-}
-
-.buttons{
-    display: flex;
-    position: absolute;
-    top: 0;
-    z-index: 100000000;
-}
-
-.frageContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-}
-.nr{
-    background-color: yellow;
-    font-size: 40px;
 }

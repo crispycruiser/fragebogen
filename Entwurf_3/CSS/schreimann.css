@@ -34,3 +34,21 @@
     transform: scale(0.5);
     transform-origin: center;
 }
+
+/* Fragen & Switcher */
+#containerFrage3{
+    position: absolute;
+    width: 20%;
+    top: 300vh;
+    left: 50vw;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: center;
+    rotate: 45deg;
+}
+#frage_switcher3{
+    position: absolute;
+    left: 30%;
+    top: 200vh;
+    z-index: 8;
+}

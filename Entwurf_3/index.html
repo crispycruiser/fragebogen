@@ -10,19 +10,9 @@
 </head>
 
 <body>
-    <div class="buttons">    
-        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_1">BUTTON 1</button>
-        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_2">BUTTON 2 </button>
-        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_3">BUTTON 3</button>
-        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_4">BUTTON 4</button>
-        <button class="testButton" id="HIER_KOMMT_FRAGE_SWITCHER_5">BUTTON 5</button>
-    </div>
     <div class="hero fade">
         <div class="overline">Suhrkamp</div>
         <h1>Max Frisch Fragebogen</h1>
-        <!-- hier wird container erstellt um danach frage einzufügen
-            WICHTIG: namensgebung muss exakt so sein wie hier ('coontainerFrage + szenen nummer') damit JS darauf zugreifen kann -->
-        <div id="containerFrage1" class="frageContainer"></div> 
         <div class="underline">
             Ein Auszug der über 200 brennenden Fragen des Lebens.</div>
         <!-- <div id="cloudContainer"></div> -->
@@ -30,19 +20,31 @@
 
     
     <div class="container_bahnhof">
+        <!-- Szene switcher hero zu 1 -->
         <div class="button_start">
             <button class="button" id="button_startID"></button>
         </div> 
+        <!-- Frage -->
+        <div id="containerFrage1" class="frageContainer"></div>
+        <div class="container_switch">
+            <button class="switch_button" id="frage_switcher1"></button>
+        </div>
+        <!-- Szene 1 -->
         <img class="tafel" id="bahnhof_img" src="/Entwurf_3/images/imagesTafel/tafel.png" alt="Fahrplan Tafel">
         <img class="bahnhof" id="bahnhof_img" src="/Entwurf_3/images/imagesTafel/bahnhof.png" alt="Bahnhof Fassade">
-        <span class="tafel testFrage" id="containerFrage2">asdasd</span>
+        
 
     </div>
 
     <div class="container_litfass">
+        <!-- Szene switcher 1 zu 2 -->
         <div class="button_tafel">
             <button class="button" id="button_tafelID"></button>
         </div>
+        <!-- Frage -->
+        <div id="containerFrage2" class="frageContainer"></div>
+        <button class="switch_button" id="frage_switcher2"></button>
+        <!-- Szene 2 -->
         <img class="litfass" src="/Entwurf_3/images/imagesLitfass/Litfass.png" alt="Litfass">
         <img class="litfass_vordergrund" src="/Entwurf_3/images/imagesLitfass/Vordergrund.png" alt="Menschenmenge">
         <img class="litfass_vordergrund2" src="/Entwurf_3/images/imagesLitfass/Vordergrund.png" alt="Menschenmenge">
@@ -51,20 +53,46 @@
     </div>
 
     <div class="container_schreimann">
+        <!-- Szene switcher 2 zu 3 -->
         <div class="button_litfass">
             <button class="button" id="button_litfassID"></button>
         </div>
+        <!-- Frage -->
+        <div id="containerFrage3" class="frageContainer"></div>
+        <button class="switch_button" id="frage_switcher3"></button>
+        <!-- Szene 3 -->
         <img class="schreimann" src="/Entwurf_3/images/imagesSchreimann/Schreimann.png" alt="Mann mit Schild">
         <img class="laternen" src="/Entwurf_3/images/imagesSchreimann/Laternen.png" alt="Strassenlaternen">
         <img class="strasse" src="/Entwurf_3/images/imagesSchreimann/Strasse.png" alt="Strasse">
     </div>
 
     <div class="container_lastwagen">
+        <!-- Szene switcher 3 zu 4 -->
         <div class="button_schreimann">
             <button class="button" id="button_schreimannID"></button>
         </div>
+        <!-- Frage -->
+        <div id="containerFrage4" class="frageContainer"></div>
+        <button class="switch_button" id="frage_switcher4"></button>
+        <!-- Szene 4 -->
         <img class="lastwagen" src="/Entwurf_3/images/imagesLastwagen/Lastwagen.png" alt="Lastwagen">
-        <img class="auto" src="/Entwurf_3/images/imagesLastwagen/Auto.png" alt="Auto">
+        <!-- <img class="auto" src="/Entwurf_3/images/imagesLastwagen/Auto.png" alt="Auto"> -->
+    </div>
+
+    <div class="container_flugi">
+        <!-- Szene switcher 4 zu 5 -->
+        <div class="button_lastwagen">
+            <button class="button" id="button_lastwagenID"></button>
+        </div>
+        <!-- Frage switcher -->
+        <button class="switch_button" id="frage_switcher5"></button>
+        <!-- Szene 5 -->
+        <div class="flugi_float">
+            <!-- frage -->
+            <div id="containerFrage5" class="frageContainer"></div>
+            <img class="flugi" src="/Entwurf_3/images/imagesFlugi/flugzeug.png" alt="Flugzeug">
+        </div>
+
     </div>
 
 

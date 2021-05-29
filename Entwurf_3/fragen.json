@@ -115,6 +115,165 @@
         "fragebogen": "Fragebogen 10",
         "nummer": 2,
         "frage": "Wem gehört Ihres Erachtens beispielsweise die Luft?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 23,
+        "frage": "Was gefällt Ihnen am Neuen Testament?"
+    },
+
+
+
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 5,
+        "frage": "Welche Probleme löst die gute Ehe?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 7,
+        "frage": "Befremdet Sie eine kluge Lesbierin?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 5,
+        "frage": "Welche Hoffnung haben Sie aufgegeben?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 9,
+        "frage": "Kennen Sie Tiere mit Humor?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 1,
+        "frage": "Halten Sie sich für einen guten Freund?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 2,
+        "frage": "Mögen Sie Kinder allgemein?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 24,
+        "frage": "Können Sie sich ohne Kinder vorstellen?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 9,
+        "frage": "Erleben Sie einen Hund als Eigentum?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 1,
+        "frage": "Haben Sie Angst vor dem Tod und seit welchem Lebensjahr?"
+    },
+
+
+
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 19,
+        "frage": "Wenn Ihre derzeitige Ehe als glücklich zu bezeichnen ist: worauf führen Sie das zurück? (Stichworte genügen)"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 14,
+        "frage": "Lernen Sie von einer Liebesbeziehung für die nächste?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 8,
+        "frage": "Hoffen Sie angesichts der Weltlage: a. auf die Vernunft? b. auf ein Wunder? c. dass es weitergeht wie bisher?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 13,
+        "frage": "Können Sie sich eine Ehe ohne Humor vorstellen?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 15,
+        "frage": "Fürchten Sie sich vor den Armen?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 4,
+        "frage": "Wollten Sie damals Vater werden?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 2,
+        "frage": "Hat Heimat für Sie eine Flagge?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 12,
+        "frage": "Wie stellen Sie sich Armut vor?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 4,
+        "frage": "Möchten Sie unsterblich sein?"
+    },
+
+
+
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 23,
+        "frage": "Und warum nicht?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 22,
+        "frage": "Was ertragen Sie nur mit Humor?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 10,
+        "frage": "Was fürchten Sie mehr: das Urteil von einem Freund oder das Urteil von Feinden?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 11,
+        "frage": "Fühlen Sie Blutsverwandtschaft?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 20,
+        "frage": "Kann Ideologie zu einer Heimat werden?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 16,
+        "frage": "Haben Sie schon Tote geküsst?"
     }
 ]
     

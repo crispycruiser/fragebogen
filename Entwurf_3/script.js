@@ -30,6 +30,11 @@ let vertical_movement_beginning = [
   ".strasse",
   ".schreimann",
   ".laternen",
+  "#containerFrage1",
+  "#frage_switcher1",
+  "#containerFrage2",
+  "#frage_switcher2",
+  "#containerFrage3"
 ];
 
 // Hero zu Tafel
@@ -66,7 +71,7 @@ var menschen_move2 = gsap.to([".menschenmenge2", ".litfass_vordergrund2"], {
 });
 
 // LITFASS zu SCHREIMANN
-var schreimann_ani = gsap.to([".litfass"], {
+var schreimann_ani = gsap.to([".litfass", "#containerFrage2"], {
   width: "200vw",
   x: "-200vw",
   duration: 2,
@@ -83,14 +88,14 @@ var durch_bahnhof = gsap.to([".bahnhof", ".menschenmenge", ".litfass_vordergrund
 });
 
 // zoom animation 'billig' - muss noch verfeinert werden
-var billige_animation = gsap.to([".schreimann", ".strasse", ".laternen", ".button_schreimann"],{
+var billige_animation = gsap.to(["#containerFrage3", ".schreimann", ".strasse", ".laternen", ".button_schreimann"],{
   scale: 1,
   duration: 5,
   ease: "cubic",
   paused: true,
 });
 
-var button_schreimann_ani = gsap.to([".button_schreimann"], {
+var button_schreimann_ani = gsap.to([".button_schreimann", "#frage_switcher3"], {
   duration: 2,
   y: "-130vh",
   ease: "cubic",
@@ -99,7 +104,7 @@ var button_schreimann_ani = gsap.to([".button_schreimann"], {
 
 //SCHREIMANN zu LASTWAGEN ANIMATION
 
-var schreimann_move_out = gsap.to([".schreimann", ".button_schreimann",], {
+var schreimann_move_out = gsap.to(["#frage_switcher3", "#containerFrage3", ".schreimann", ".button_schreimann",], {
   duration: 2,
   x: "160vh",
   ease: "cubic",
@@ -113,10 +118,38 @@ var laternen_ani = gsap.to([".laternen"], {
   paused: true,
 });
 
-var lastwagen_ani = gsap.to([".lastwagen"], {
+var lastwagen_ani = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen", ".button_lastwagen"], {
   duration: 2,
   x: "160vh",
   ease: "cubic",
+  paused: true,
+});
+
+
+//LASTWAGEN zu FLUGI
+
+var lastwagenszene_move_down = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen"], {
+  duration: 5,
+  y: "160vh",
+  ease: "cubic",
+  paused: true,
+});
+
+var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5", ], {
+  duration: 3,
+  y: "120vh",
+  x: "20vw",
+  ease: "cubic",
+  paused: true,
+});
+
+var flugi_float_ani = gsap.to([".flugi_float"], {
+  repeat: -1,
+  duration: 1,
+  yoyo: true,
+  yoyoEase: "none",
+  ease: "none",
+  y: "-50px",
   paused: true,
 });
 
@@ -133,13 +166,19 @@ var button_fade_ani2 = gsap.to([".button_tafel", ".fade"], {
   paused: true
 });
 
-var button_fade_ani3 = gsap.to([".button_litfass", ".fade"], {
+var button_fade_ani3 = gsap.to([".button_litfass", "#frage_switcher2", ".fade"], {
   duration: 0.1,
   opacity: 0,
   paused: true
 });
 
 var button_fade_ani4 = gsap.to([".button_schreimann", ".fade"], {
+  duration: 0.1,
+  opacity: 0,
+  paused: true
+});
+
+var button_fade_ani5 = gsap.to([".button_lastwagen", ".fade"], {
   duration: 0.1,
   opacity: 0,
   paused: true
@@ -181,3 +220,11 @@ document.querySelector("#button_schreimannID").addEventListener("click", functio
   lastwagen_ani.play();
   button_fade_ani4.play();
 });
+
+document.querySelector("#button_lastwagenID").addEventListener("click", function () {
+lastwagenszene_move_down.play();
+flugi_ani.play();
+flugi_float_ani.play();
+button_fade_ani5.play();
+});
+

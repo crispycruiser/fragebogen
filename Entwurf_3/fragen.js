@@ -1,11 +1,11 @@
 let allQuestions;
 let lastQuestions = [];
 
-let btn1 = document.getElementById("HIER_KOMMT_FRAGE_SWITCHER_1");
-let btn2 = document.getElementById("HIER_KOMMT_FRAGE_SWITCHER_2");
-let btn3 = document.getElementById("HIER_KOMMT_FRAGE_SWITCHER_3");
-let btn4 = document.getElementById("HIER_KOMMT_FRAGE_SWITCHER_4");
-let btn5 = document.getElementById("HIER_KOMMT_FRAGE_SWITCHER_5");
+let btn1 = document.getElementById("frage_switcher1");
+let btn2 = document.getElementById("frage_switcher2");
+let btn3 = document.getElementById("frage_switcher3");
+let btn4 = document.getElementById("frage_switcher4");
+let btn5 = document.getElementById("frage_switcher5");
 
 // json file wird reingeladen und html gerecht gemacht
 
@@ -15,9 +15,9 @@ fetch("/Entwurf_3/fragen.json")
     allQuestions = result;
     display_random_question_for_scene(1); //in jeder szene wird mal eine random frage angezeigt
     display_random_question_for_scene(2);
-    // display_random_question_for_scene(3);
-    // display_random_question_for_scene(4);
-    // display_random_question_for_scene(5);    
+    display_random_question_for_scene(3);
+    display_random_question_for_scene(4);
+    display_random_question_for_scene(5);    
 })
 .catch(error => {
     console.error('Error while loading questions: ', error);
@@ -64,20 +64,24 @@ function display_random_question_for_scene (scene){
         frageContainer.innerHTML = "";
 
         // html elemente erstellen wo dann daten aus json eingefügt werden
-        let fragebogen = document.createElement("div");
-        fragebogen.classList.add("fragebogen");
-        fragebogen.innerText = randomQuestion.fragebogen;
+
+
+            // let fragebogen = document.createElement("div");
+            // fragebogen.classList.add("fragebogen");
+            // fragebogen.innerText = randomQuestion.fragebogen;
         
+            
         let nr = document.createElement("div");
-        nr.classList.add("nr");
-        nr.innerText = randomQuestion.nummer;
+        nr.classList.add("fragebogen_nummer");
+        nr.innerText = randomQuestion.fragebogen + ", " + "Nr. " + randomQuestion.nummer + ":";
 
         let frage = document.createElement("div");
         frage.classList.add("frage");
         frage.innerText = randomQuestion.frage;
 
         // html elemente werden in container eingefügt
-        frageContainer.appendChild(fragebogen);
+
+        // frageContainer.appendChild(fragebogen);
         frageContainer.appendChild(nr);
         frageContainer.appendChild(frage);
 
