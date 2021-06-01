@@ -1,7 +1,6 @@
 .container_flugi{
-position: relative;
+/* position: relative; */
 }
-
 
 .flugi_float{
 position: relative;
@@ -12,6 +11,26 @@ position: relative;
 top: -190vh;
 width: 60%;
 }
+
+.wolken{
+    display: none;
+
+    position: absolute;
+    top: -150vh;
+}
+.wolke1{
+    background-color: blue;
+    position: relative;
+    
+    /* padding-top: 10vh; */
+    width: 30%;
+}
+.wolke2{
+    background-color: blue;
+    position: relative;
+    width: 20%;
+}
+
 
 /* Fragen & Switcher */
 #containerFrage5{

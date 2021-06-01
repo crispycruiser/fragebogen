@@ -125,17 +125,25 @@ var lastwagen_ani = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen
   paused: true,
 });
 
+var auto_ani = gsap.to([".auto"], {
+  repeat: -1,
+  duration: 2,
+  x: "200vw",
+  ease: "none",
+  paused: true,
+});
+
 
 //LASTWAGEN zu FLUGI
 
-var lastwagenszene_move_down = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen"], {
+var lastwagenszene_move_down = gsap.to([".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen", ".auto"], {
   duration: 5,
   y: "160vh",
   ease: "cubic",
   paused: true,
 });
 
-var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5", ], {
+var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5"], {
   duration: 3,
   y: "120vh",
   x: "20vw",
@@ -145,7 +153,7 @@ var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5", ], {
 
 var flugi_float_ani = gsap.to([".flugi_float"], {
   repeat: -1,
-  duration: 1,
+  duration: 2,
   yoyo: true,
   yoyoEase: "none",
   ease: "none",
@@ -216,6 +224,7 @@ document.querySelector("#button_litfassID").addEventListener("click", function (
 
 document.querySelector("#button_schreimannID").addEventListener("click", function () {
   schreimann_move_out.play();
+  auto_ani.play();
   laternen_ani.play();
   lastwagen_ani.play();
   button_fade_ani4.play();
