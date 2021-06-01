@@ -125,19 +125,27 @@ var lastwagen_ani = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen
   paused: true,
 });
 
+var auto_ani = gsap.to([".auto"], {
+  repeat: -1,
+  duration: 2,
+  x: "200vw",
+  ease: "none",
+  paused: true,
+});
+
 
 //LASTWAGEN zu FLUGI
 
-var lastwagenszene_move_down = gsap.to(["#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen"], {
+var lastwagenszene_move_down = gsap.to([".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen", ".auto"], {
   duration: 5,
   y: "160vh",
   ease: "cubic",
   paused: true,
 });
 
-var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5", ], {
+var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5"], {
   duration: 3,
-  y: "120vh",
+  y: "140vh",
   x: "20vw",
   ease: "cubic",
   paused: true,
@@ -145,12 +153,28 @@ var flugi_ani = gsap.to([".flugi", "#frage_switcher5", "#containerFrage5", ], {
 
 var flugi_float_ani = gsap.to([".flugi_float"], {
   repeat: -1,
-  duration: 1,
+  duration: 2,
   yoyo: true,
   yoyoEase: "none",
   ease: "none",
   y: "-50px",
   paused: true,
+});
+
+var wolke1 = gsap.to([".wolke1"], {
+  repeat: -1,
+  // force3D: true,
+  x: "100px",
+  ease: "none",
+  duration: 12,
+});
+
+var wolke2 = gsap.to([".wolke2"], {
+  repeat: -1,
+  // force3D: true,
+  x: "-100px",
+  ease: "none",
+  duration: 5,
 });
 
 // FADE ANIMATIONS
@@ -216,6 +240,7 @@ document.querySelector("#button_litfassID").addEventListener("click", function (
 
 document.querySelector("#button_schreimannID").addEventListener("click", function () {
   schreimann_move_out.play();
+  auto_ani.play();
   laternen_ani.play();
   lastwagen_ani.play();
   button_fade_ani4.play();
@@ -226,5 +251,7 @@ lastwagenszene_move_down.play();
 flugi_ani.play();
 flugi_float_ani.play();
 button_fade_ani5.play();
+wolke1.play();
+wolke2.play();
 });
 

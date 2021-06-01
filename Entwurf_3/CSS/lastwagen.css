@@ -11,10 +11,11 @@ position: relative;
 
 .auto{
       position: absolute;
-      width: 30%;
-      top: 280vh;
-      right: 20vh;
-      z-index: 4;
+      width: 100%;
+      top: 40vh;
+      right: 100vw;
+      z-index: 2;
+      filter: blur(30px);
 }
 
 .button_lastwagen{
@@ -31,7 +32,6 @@ position: relative;
     top: 35vh;
     width: 20%;
     z-index: 2;
-    
 }
 #frage_switcher4{
     position: absolute;
