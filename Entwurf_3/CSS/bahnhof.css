@@ -2,6 +2,7 @@
     position: relative;
 }
 
+
 .bahnhof{
     position: absolute;
     top: 80vh;
@@ -30,21 +31,31 @@
     position: absolute;
     left: 20%;
     top: 200vh;
-    z-index: 3;
+    z-index: 10;
 }
 
 #containerFrage1{
     position: absolute;
-    /* width: 32vw; */
     top: 160vh;
-    left: 40%;
-    right: 40%;
+    left: 37%;
+    right: 37%;
     z-index: 100;
+    width: 18%;
 }
+
 #frage_switcher1{
     position: absolute;
     /* width: 32vw; */
     top: 200vh;
     right: 20%;
     z-index: 100;
+}
+
+#containerFrage1 {
+    position: absolute;
+    top: 160vh;
+    left: 37%;
+    right: 37%;
+    z-index: 100;
+    width: 18%;
 }

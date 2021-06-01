@@ -5,36 +5,41 @@ background-color: none;
 
 .flugi_float{
 position: relative;
+z-index: 5;
 }
 
 .flugi{
 position: relative;
 top: -190vh;
 width: 60%;
-z-index: 4;
+
 }
 
 .wolken{
     /* display: none; */
     z-index: 1;
     position: absolute;
-    top: -150vh;
-    right: 0;
+    top: -170vh;
+    left: 150vw;
 }
 .wolke1{
     position: relative;
-    left: 10vw;
-    /* padding-top: 10vh; */
-    width: 30%;
-    
+    width: 20vw;
+    z-index: 1;
+    top: 20vh;
 }
 .wolke2{
     position: relative;
-    
-    width: 20%;
-    
+    z-index: 10;
+    width: 20vw;
+    top: 30vh;
 }
-
+.wolke3{
+    position: absolute;
+    z-index: 1;
+    width: 25vw;
+    top: 30vh;
+}
 
 /* Fragen & Switcher */
 #containerFrage5{
