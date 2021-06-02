@@ -34,8 +34,41 @@ let vertical_movement_beginning = [
   "#frage_switcher1",
   "#containerFrage2",
   "#frage_switcher2",
-  "#containerFrage3"
+  "#containerFrage3",
 ];
+
+// Himmel
+var himmelmove = gsap.to([".himmel_move", ".himmel_move2"], {
+  duration: 100,
+  x: "-100vw",
+  repeat: -1,
+  ease: "none",
+});
+var himmel1 = gsap.to(".himmel", {
+  duration: 2,
+  y: "-30vh",
+  ease: "cubic",
+  paused: true
+});
+var himmel2 = gsap.to(".himmel", {
+  duration: 2,
+  y: "-100vh",
+  ease: "cubic",
+  paused: true
+});
+var himmel3 = gsap.to(".himmel", {
+  duration: 2,
+  x: "12vw",
+  ease: "cubic",
+  paused: true
+});
+var himmel4 = gsap.to(".himmel", {
+  duration: 3,
+  y: "-20vw",
+  ease: "cubic",
+  paused: true
+});
+
 
 // Hero zu Tafel
 var tafel_ani = gsap.to(vertical_movement_beginning, {
@@ -161,20 +194,31 @@ var flugi_float_ani = gsap.to([".flugi_float"], {
   paused: true,
 });
 
+// Wolken Flugi
 var wolke1 = gsap.to([".wolke1"], {
   repeat: -1,
   // force3D: true,
-  x: "100px",
+  x: "-200vw",
   ease: "none",
-  duration: 12,
+  duration: 15,
+  paused: true,
 });
-
 var wolke2 = gsap.to([".wolke2"], {
   repeat: -1,
   // force3D: true,
-  x: "-100px",
+  x: "-200vw",
   ease: "none",
-  duration: 5,
+  duration: 14,
+  paused: true,
+});
+var wolke3 = gsap.to([".wolke3"], {
+  repeat: -1,
+  // force3D: true,
+  x: "-200vw",
+  ease: "none",
+  duration: 15,
+  paused: true,
+  delay: 2,
 });
 
 // FADE ANIMATIONS
@@ -219,6 +263,7 @@ var temporary_fade_ani = gsap.to([".menschenmenge", ".menschenmenge2", ".litfass
 document.querySelector("#button_startID").addEventListener("click", function () {
   tafel_ani.play();
   button_fade_ani.play();
+  himmel1.play();
 });
 
 document.querySelector("#button_tafelID").addEventListener("click", function () {
@@ -226,6 +271,7 @@ document.querySelector("#button_tafelID").addEventListener("click", function () 
   button_fade_ani2.play();
   menschen_move.play();
   menschen_move2.play();
+  himmel2.play();
 });
 
 document.querySelector("#button_litfassID").addEventListener("click", function () {
@@ -244,6 +290,7 @@ document.querySelector("#button_schreimannID").addEventListener("click", functio
   laternen_ani.play();
   lastwagen_ani.play();
   button_fade_ani4.play();
+  himmel3.play();
 });
 
 document.querySelector("#button_lastwagenID").addEventListener("click", function () {
@@ -253,5 +300,7 @@ flugi_float_ani.play();
 button_fade_ani5.play();
 wolke1.play();
 wolke2.play();
+wolke3.play();
+himmel4.play();
 });
 

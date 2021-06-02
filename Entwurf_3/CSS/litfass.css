@@ -21,13 +21,13 @@
 
 .menschenmenge{
     position: absolute;
-    top: 290vh;
+    top: 280vh;
     z-index: 3;
     /* filter: blur(18px); */
 }
 .menschenmenge2{
     position: absolute;
-    top: 290vh;
+    top: 280vh;
     z-index: 3;
 }
 
@@ -43,8 +43,9 @@
     position: absolute;
     top: 300vh;
     left: 20vw;
-    width: 10%;
+    width: 20%;
     z-index: 5;
+    transform: scale(0.7);
     
 }
 #frage_switcher2{
