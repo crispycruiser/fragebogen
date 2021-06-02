@@ -29,7 +29,6 @@ let vertical_movement_beginning = [
   ".button_litfass",
   ".strasse",
   ".schreimann",
-  ".laternen",
   "#containerFrage1",
   "#frage_switcher1",
   "#containerFrage2",
@@ -115,14 +114,21 @@ var durch_bahnhof = gsap.to([".bahnhof", ".menschenmenge", ".litfass_vordergrund
   transformOrigin: "bottom",
   scale: 10,
   y: "20vh",
-  duration: 8,
+  duration: 15,
   ease: "cubic",
   paused: true,
 });
 
 // zoom animation 'billig' - muss noch verfeinert werden
-var billige_animation = gsap.to(["#containerFrage3", ".schreimann", ".strasse", ".laternen", ".button_schreimann"],{
+var billige_animation = gsap.to(["#containerFrage3", ".schreimann", ".button_schreimann"],{
   scale: 1,
+  duration: 5,
+  ease: "cubic",
+  paused: true,
+});
+var strasse_laternen_bigger = gsap.to([".strasse"], {
+  scale: 1,
+  transformOrigin: "bottom",
   duration: 5,
   ease: "cubic",
   paused: true,
@@ -144,7 +150,7 @@ var schreimann_move_out = gsap.to(["#frage_switcher3", "#containerFrage3", ".sch
   paused: true,
 });
 
-var laternen_ani = gsap.to([".laternen"], {
+var laternen_ani = gsap.to([".strasse"], {
   duration: 2,
   x: "20vh",
   ease: "cubic",
@@ -169,7 +175,7 @@ var auto_ani = gsap.to([".auto"], {
 
 //LASTWAGEN zu FLUGI
 
-var lastwagenszene_move_down = gsap.to([".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".laternen", ".auto"], {
+var lastwagenszene_move_down = gsap.to([".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".auto"], {
   duration: 5,
   y: "160vh",
   ease: "cubic",
@@ -283,6 +289,7 @@ document.querySelector("#button_litfassID").addEventListener("click", function (
   button_fade_ani3.play();
   temporary_fade_ani.play();
   billige_animation.play();
+  strasse_laternen_bigger.play();
   button_schreimann_ani.play();
   // button_fade_ani2.play();
 });

@@ -8,17 +8,17 @@
 
 .litfass_vordergrund{
     position: absolute;
-    top: 310vh;
+    top: 325vh;
     z-index: 6;
     width: 100%;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .litfass_vordergrund2{
     position: absolute;
-    top: 310vh;
+    top: 325vh;
     z-index: 6;
     width: 100%;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .menschenmenge{
@@ -43,16 +43,18 @@
 /* Fragen & Switcher */
 #containerFrage2{
     position: absolute;
-    top: 300vh;
+    top: 305vh;
     left: 17.5vw;
     width: 17%;
     z-index: 5;
     transform: scale(0.7);
+    transform-origin: 50% 0%;
+
     
 }
 #frage_switcher2{
     position: absolute;
-    top: 350vh;
+    top: 320vh;
     left: 40vw;
     z-index: 7;
 }
