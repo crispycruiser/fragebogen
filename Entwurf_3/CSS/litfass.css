@@ -11,12 +11,14 @@
     top: 310vh;
     z-index: 6;
     width: 100%;
+    transform: scale(1.2);
 }
 .litfass_vordergrund2{
     position: absolute;
     top: 310vh;
     z-index: 6;
     width: 100%;
+    transform: scale(1.2);
 }
 
 .menschenmenge{
@@ -50,7 +52,7 @@
 }
 #frage_switcher2{
     position: absolute;
-    top: 280vh;
-    left: 50vw;
-    z-index: 4;
+    top: 350vh;
+    left: 40vw;
+    z-index: 7;
 }

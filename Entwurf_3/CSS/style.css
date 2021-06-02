@@ -13,12 +13,13 @@ body {
     padding: 0px;
 }
 .himmel_move{
-    left: 100vw;
+    left: 88vw;
     z-index: 0;
     position: absolute;
 }
 .himmel_move2{
     z-index: 0;
+    left: -12vw;
     position: absolute;
 }
 .himmel{

@@ -202,6 +202,7 @@ var wolke1 = gsap.to([".wolke1"], {
   ease: "none",
   duration: 15,
   paused: true,
+  repeatRefresh: true
 });
 var wolke2 = gsap.to([".wolke2"], {
   repeat: -1,
@@ -210,6 +211,7 @@ var wolke2 = gsap.to([".wolke2"], {
   ease: "none",
   duration: 14,
   paused: true,
+  repeatRefresh: true
 });
 var wolke3 = gsap.to([".wolke3"], {
   repeat: -1,
@@ -219,6 +221,7 @@ var wolke3 = gsap.to([".wolke3"], {
   duration: 15,
   paused: true,
   delay: 2,
+  repeatRefresh: true
 });
 
 // FADE ANIMATIONS
