@@ -110,30 +110,46 @@ var schreimann_ani = gsap.to([".litfass", "#containerFrage2"], {
   ease: "cubic",
   paused: true,
 });
-var durch_bahnhof = gsap.to([".bahnhof", ".menschenmenge", ".litfass_vordergrund"], {
+var durch_bahnhof = gsap.to([".bahnhof", ".litfass_vordergrund"], {
   transformOrigin: "bottom",
   scale: 10,
   y: "20vh",
-  duration: 15,
+  duration: 11,
   ease: "cubic",
   paused: true,
 });
-
-// zoom animation 'billig' - muss noch verfeinert werden
-var billige_animation = gsap.to(["#containerFrage3", ".schreimann", ".button_schreimann"],{
+// Zoom in
+var zoom_animation = gsap.to(["#containerFrage3", ".schreimann", ".button_schreimann"],{
   scale: 1,
   duration: 5,
+  ease: "cubic",
+  paused: true,
+});
+var zoom_animation_menschen = gsap.to([".menschenmenge", ".menschenmenge2"],{
+  scale: 3,
+  top: "340vh",
+  duration: 5,
+  ease: "cubic",
+  paused: true,
+});
+var scale_containerFrage3 = gsap.to(["#containerFrage3"],{
+  scale: 0.7,
+  skewX: -30,
+  skewY: 11,
+  opacity: 1,
+  duration: 5,
+  delay: 1,
   ease: "cubic",
   paused: true,
 });
 var strasse_laternen_bigger = gsap.to([".strasse"], {
-  scale: 1,
-  transformOrigin: "bottom",
+  scale: 0.9,
+  top: "220vh",
+  x: "-15vw",
   duration: 5,
   ease: "cubic",
   paused: true,
 });
-
 var button_schreimann_ani = gsap.to([".button_schreimann", "#frage_switcher3"], {
   duration: 2,
   y: "-130vh",
@@ -175,7 +191,7 @@ var auto_ani = gsap.to([".auto"], {
 
 //LASTWAGEN zu FLUGI
 
-var lastwagenszene_move_down = gsap.to([".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".auto"], {
+var lastwagenszene_move_down = gsap.to([".button_reload", ".wolken", "#frage_switcher4", "#containerFrage4", ".lastwagen", ".strasse", ".auto",".menschenmenge", ".menschenmenge2" ], {
   duration: 5,
   y: "160vh",
   ease: "cubic",
@@ -203,31 +219,25 @@ var flugi_float_ani = gsap.to([".flugi_float"], {
 // Wolken Flugi
 var wolke1 = gsap.to([".wolke1"], {
   repeat: -1,
-  // force3D: true,
   x: "-200vw",
   ease: "none",
   duration: 15,
   paused: true,
-  repeatRefresh: true
 });
 var wolke2 = gsap.to([".wolke2"], {
   repeat: -1,
-  // force3D: true,
   x: "-200vw",
   ease: "none",
   duration: 14,
   paused: true,
-  repeatRefresh: true
 });
 var wolke3 = gsap.to([".wolke3"], {
   repeat: -1,
-  // force3D: true,
   x: "-200vw",
   ease: "none",
   duration: 15,
   paused: true,
   delay: 2,
-  repeatRefresh: true
 });
 
 // FADE ANIMATIONS
@@ -261,7 +271,7 @@ var button_fade_ani5 = gsap.to([".button_lastwagen", ".fade"], {
   paused: true
 });
 
-var temporary_fade_ani = gsap.to([".menschenmenge", ".menschenmenge2", ".litfass_vordergrund", ".litfass_vordergrund2"], {
+var vordergrund_fade_ani = gsap.to([".litfass_vordergrund", ".litfass_vordergrund2"], {
   duration: 0.5,
   opacity: 0,
   paused: true
@@ -287,16 +297,17 @@ document.querySelector("#button_litfassID").addEventListener("click", function (
   schreimann_ani.play();
   durch_bahnhof.play();
   button_fade_ani3.play();
-  temporary_fade_ani.play();
-  billige_animation.play();
+  vordergrund_fade_ani.play();
+  zoom_animation.play();
+  scale_containerFrage3.play();
   strasse_laternen_bigger.play();
   button_schreimann_ani.play();
-  // button_fade_ani2.play();
+  zoom_animation_menschen.play();
 });
 
 document.querySelector("#button_schreimannID").addEventListener("click", function () {
   schreimann_move_out.play();
-  auto_ani.play();
+  // auto_ani.play();
   laternen_ani.play();
   lastwagen_ani.play();
   button_fade_ani4.play();
@@ -304,13 +315,21 @@ document.querySelector("#button_schreimannID").addEventListener("click", functio
 });
 
 document.querySelector("#button_lastwagenID").addEventListener("click", function () {
-lastwagenszene_move_down.play();
-flugi_ani.play();
-flugi_float_ani.play();
-button_fade_ani5.play();
-wolke1.play();
-wolke2.play();
-wolke3.play();
-himmel4.play();
+  lastwagenszene_move_down.play();
+  flugi_ani.play();
+  flugi_float_ani.play();
+  button_fade_ani5.play();
+  wolke1.play();
+  wolke2.play();
+  wolke3.play();
+  himmel4.play();
 });
 
+document.querySelector("#reload").addEventListener("click", function (){
+  location.reload();
+});
+
+// BONUS
+var Rick = console.log(
+  "Were no strangers to love  You know the rules and so do I  A full commitment's what I'm thinking of  You wouldn't get this from any other guy  I just wanna tell you how Im feeling  Gotta make you understand  Never gonna give you up  Never gonna let you down  Never gonna run around and desert you  Never gonna make you cry  Never gonna say goodbye  Never gonna tell a lie and hurt you"
+);

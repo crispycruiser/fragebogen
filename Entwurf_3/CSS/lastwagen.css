@@ -15,7 +15,7 @@ position: relative;
       width: 100%;
       top: 40vh;
       right: 100vw;
-      z-index: 2;
+      z-index: 8;
       filter: blur(30px);
 }
 
@@ -32,7 +32,7 @@ position: relative;
     left: -75vw;
     top: 35vh;
     width: 20%;
-    z-index: 2;
+    z-index: 3;
 }
 #frage_switcher4{
     position: absolute;

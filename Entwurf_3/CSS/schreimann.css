@@ -9,12 +9,13 @@
 }
 
 .strasse {
-    width: 233vw;
+    width: 200vw;
     position: absolute;
-    top: 230vh;
-    left: -70vw;
+    top: 240vh;
+    left: -50vw;
     transform: scale(0.5);
     transform-origin: center;
+    z-index: 1;
 }
 
 /* .laternen {
@@ -40,11 +41,11 @@
 #containerFrage3{
     position: absolute;
     width: 15%;
-    top: 300vh;
-    left: 55vw;
-    z-index: 2;
-    transform-origin: center;
-    transform: skew(-28deg, 14deg) scale(0.2);
+    top: 315vh;
+    left: 62.5vw;
+    z-index: 3;
+    transform-origin: 50% 0%;
+    opacity: 0;
 }
 
 #frage_switcher3{
