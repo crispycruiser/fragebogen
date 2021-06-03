@@ -21,8 +21,8 @@ position: relative;
 
 .button_lastwagen{
     position: relative;
-    top: -30vh;
-    left: -20vw;
+    top: -65vh;
+    left: -5vw;
     z-index: 10;
 }
 
@@ -36,6 +36,7 @@ position: relative;
 }
 #frage_switcher4{
     position: absolute;
-    left: -10vw;
-    top: 10vh;
+    left: -70%;
+    top: 20vh;
+    z-index: 4;
 }

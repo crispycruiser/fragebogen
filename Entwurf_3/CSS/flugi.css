@@ -1,7 +1,7 @@
 .button_reload{
     position: absolute;
-    top: -120vh;
-    left: 20vh;
+    top: -150vh;
+    left: 10vh;
     z-index:100000000;
 }
 
@@ -60,6 +60,6 @@ width: 60%;
 }
 #frage_switcher5{
     position: absolute;
-    top: -80vh;
-    left: 50vw;
+    top: -55vh;
+    left: 30vw;
 }

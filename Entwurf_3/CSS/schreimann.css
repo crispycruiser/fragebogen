@@ -30,8 +30,8 @@
 
 .button_schreimann {
     position: absolute;
-    left: 20%;
-    top: 200vh;
+    left: 2%;
+    top: 150vh;
     z-index: 8;
     transform: scale(0.5);
     transform-origin: center;
@@ -50,8 +50,8 @@
 
 #frage_switcher3{
     position: absolute;
-    left: 50%;
-    top: 190vh;
+    left: 55%;
+    top: 187vh;
     z-index: 8;
 }
 

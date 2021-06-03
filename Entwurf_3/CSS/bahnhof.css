@@ -29,8 +29,8 @@
 
 .button_tafel{
     position: absolute;
-    left: 20%;
-    top: 200vh;
+    left: 48%;
+    top: 215vh;
     z-index: 10;
 }
 
@@ -45,17 +45,7 @@
 
 #frage_switcher1{
     position: absolute;
-    /* width: 32vw; */
-    top: 200vh;
-    right: 20%;
+    top: 165vh;
+    right: 70%;
     z-index: 100;
-}
-
-#containerFrage1 {
-    position: absolute;
-    top: 160vh;
-    left: 37%;
-    right: 37%;
-    z-index: 100;
-    width: 18%;
 }

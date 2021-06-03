@@ -1,26 +1,7 @@
-// // CLOUTZ       ($ = document query selector)
-// var cloudContainer = $("#cloudContainer");
-
-// for (var i = 0; i < 8; i++) {
-//   var cloud = $('<div class="cloud"></div>').appendTo(cloudContainer);
-//   TweenMax.fromTo(cloud, (Math.random() * 15) + 15, {
-//     left: "-20vw",
-//     top: i * (150 + Math.random() * 250),
-//     opacity: (Math.random() * 2) + 0.1
-//   }, {
-//     left: "100%",
-//     ease: Power4.easeNone,
-//     delay: Math.random() * 15,
-//     repeat: -1
-//   });
-// };
-
-
-
 let vertical_movement_beginning = [
   ".button_tafel",
-  ".bahnhof",
   ".tafel",
+  ".bahnhof",
   ".litfass",
   ".menschenmenge",
   ".menschenmenge2",
@@ -147,11 +128,11 @@ var strasse_laternen_bigger = gsap.to([".strasse"], {
   top: "220vh",
   x: "-15vw",
   duration: 5,
-  ease: "cubic",
+  easeIn: "cubic",
   paused: true,
 });
 var button_schreimann_ani = gsap.to([".button_schreimann", "#frage_switcher3"], {
-  duration: 2,
+  duration: 6,
   y: "-130vh",
   ease: "cubic",
   paused: true,
