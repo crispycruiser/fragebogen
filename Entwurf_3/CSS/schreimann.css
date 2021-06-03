@@ -41,11 +41,12 @@
 #containerFrage3{
     position: absolute;
     width: 15%;
+    transform: scale(0.3) skew(-30deg, 11deg);
     top: 315vh;
-    left: 62.5vw;
+    left: 63.5vw;
     z-index: 3;
     transform-origin: 50% 0%;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 #frage_switcher3{

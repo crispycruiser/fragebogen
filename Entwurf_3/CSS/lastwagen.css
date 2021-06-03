@@ -38,5 +38,5 @@ position: relative;
     position: absolute;
     left: -70%;
     top: 20vh;
-    z-index: 4;
+    z-index: 20;
 }

@@ -100,7 +100,7 @@ var durch_bahnhof = gsap.to([".bahnhof", ".litfass_vordergrund"], {
   paused: true,
 });
 // Zoom in
-var zoom_animation = gsap.to(["#containerFrage3", ".schreimann", ".button_schreimann"],{
+var zoom_animation = gsap.to([".schreimann", ".button_schreimann"],{
   scale: 1,
   duration: 5,
   ease: "cubic",
@@ -114,13 +114,11 @@ var zoom_animation_menschen = gsap.to([".menschenmenge", ".menschenmenge2"],{
   paused: true,
 });
 var scale_containerFrage3 = gsap.to(["#containerFrage3"],{
+  duration: 3,
   scale: 0.7,
-  skewX: -30,
-  skewY: 11,
-  opacity: 1,
-  duration: 5,
-  delay: 1,
-  ease: "cubic",
+  skew: -30,
+  skew: 11,
+  ease: "none",
   paused: true,
 });
 var strasse_laternen_bigger = gsap.to([".strasse"], {
