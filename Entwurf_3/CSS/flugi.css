@@ -1,3 +1,11 @@
+.button_reload{
+    position: absolute;
+    top: -150vh;
+    left: 10vh;
+    z-index:100000000;
+}
+
+
 .container_flugi{
 /* position: relative; */
 background-color: none;
@@ -5,19 +13,17 @@ background-color: none;
 
 .flugi_float{
 position: relative;
-z-index: 5;
+z-index: 6;
 }
 
 .flugi{
 position: relative;
 top: -190vh;
 width: 60%;
-
 }
 
 .wolken{
-    /* display: none; */
-    z-index: 1;
+    z-index: 7;
     position: absolute;
     top: -170vh;
     left: 150vw;
@@ -25,7 +31,7 @@ width: 60%;
 .wolke1{
     position: relative;
     width: 20vw;
-    z-index: 1;
+    z-index: 7;
     top: 20vh;
 }
 .wolke2{
@@ -36,7 +42,7 @@ width: 60%;
 }
 .wolke3{
     position: absolute;
-    z-index: 1;
+    z-index: 17;
     width: 25vw;
     top: 30vh;
 }
@@ -45,12 +51,15 @@ width: 60%;
 #containerFrage5{
     position: absolute;
     top: -150vh;
-    left: 10vw;
-    width: 20%;
+    left: 7vw;
+    width: 18%;
     z-index: 5;
+    transform: rotate(-15deg) scale(0.8);
+    transform-origin: 50% 0%;
     
 }
 #frage_switcher5{
     position: absolute;
-    top: -100vh;
+    top: -55vh;
+    left: 30vw;
 }

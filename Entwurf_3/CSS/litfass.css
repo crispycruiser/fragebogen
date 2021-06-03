@@ -3,54 +3,54 @@
     width: 30%;
     top: 280vh;
     left: 10vw;
-    z-index: 4;
+    z-index: 6;
 }
-
+/* Menschenmengen normal */
 .litfass_vordergrund{
     position: absolute;
-    top: 310vh;
-    z-index: 6;
+    top: 325vh;
+    z-index: 7;
     width: 100%;
+    transform: scale(1.5);
 }
 .litfass_vordergrund2{
     position: absolute;
-    top: 310vh;
-    z-index: 6;
+    top: 325vh;
+    z-index: 7;
     width: 100%;
+    transform: scale(1.5);
 }
-
 .menschenmenge{
     position: absolute;
     top: 280vh;
-    z-index: 3;
-    /* filter: blur(18px); */
+    z-index: 5;
 }
 .menschenmenge2{
     position: absolute;
     top: 280vh;
-    z-index: 3;
+    z-index: 5;
 }
 
 .button_litfass {
     position: absolute;
-    left: 50%;
-    top: 300vh;
+    left: 68%;
+    top: 290vh;
     z-index: 8;
 }
 
 /* Fragen & Switcher */
 #containerFrage2{
     position: absolute;
-    top: 300vh;
-    left: 20vw;
-    width: 20%;
-    z-index: 5;
+    top: 305vh;
+    left: 17.5vw;
+    width: 17%;
+    z-index: 7;
     transform: scale(0.7);
-    
+    transform-origin: 50% 0%;
 }
 #frage_switcher2{
     position: absolute;
-    top: 280vh;
-    left: 50vw;
-    z-index: 4;
+    top: 300vh;
+    left: 12vw;
+    z-index: 10;
 }
