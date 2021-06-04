@@ -1,0 +1,51 @@
+.container_bahnhof{
+    position: relative;
+}
+
+
+.bahnhof{
+    position: absolute;
+    top: 80vh;
+    width: 100vw;
+    height: auto;
+    z-index: 4;
+}   
+
+.tafel{
+    position: absolute;
+    width: 32vw;
+    top: 150vh;
+    left: 34%;
+    right: 34%;
+    z-index: 5;
+}
+
+.button_start{
+    position: absolute;
+    top: 80vh;
+    left:47.25vw;
+    right:47.25vw;
+}
+
+.button_tafel{
+    position: absolute;
+    left: 48%;
+    top: 215vh;
+    z-index: 10;
+}
+
+#containerFrage1{
+    position: absolute;
+    top: 160vh;
+    left: 37%;
+    right: 37%;
+    z-index: 100;
+    width: 18%;
+}
+
+#frage_switcher1{
+    position: absolute;
+    top: 165vh;
+    right: 70%;
+    z-index: 100;
+}

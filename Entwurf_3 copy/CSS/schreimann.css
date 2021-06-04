@@ -1,0 +1,59 @@
+.schreimann {
+    position: absolute;
+    width: 30%;
+    top: 290vh;
+    left: 55vw;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: center;
+}
+
+.strasse {
+    width: 200vw;
+    position: absolute;
+    top: 240vh;
+    left: -50vw;
+    transform: scale(0.5);
+    transform-origin: center;
+    z-index: 1;
+}
+
+/* .laternen {
+    width: 233vw;
+    position: absolute;
+    top: 240vh;
+    left: -70vw;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: center;
+} */
+
+.button_schreimann {
+    position: absolute;
+    left: 2%;
+    top: 150vh;
+    z-index: 8;
+    transform: scale(0.5);
+    transform-origin: center;
+}
+
+/* Fragen & Switcher */
+#containerFrage3{
+    position: absolute;
+    width: 15%;
+    transform: scale(0.3) skew(-30deg, 11deg);
+    top: 315vh;
+    left: 63.5vw;
+    z-index: 3;
+    transform-origin: 50% 0%;
+    /* opacity: 0; */
+}
+
+#frage_switcher3{
+    position: absolute;
+    left: 55%;
+    top: 187vh;
+    z-index: 8;
+}
+
+

@@ -9,7 +9,7 @@ let btn5 = document.getElementById("frage_switcher5");
 
 // json file wird reingeladen und html gerecht gemacht
 
-fetch("/Entwurf_3/fragen.json")
+fetch("./fragen.json")
 .then(response => response.json())
 .then(result => {
     allQuestions = result;

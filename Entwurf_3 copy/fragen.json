@@ -1,0 +1,283 @@
+[
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 1",
+        "nummer": 11,
+        "frage": "Wie alt möchten Sie werden?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 21,
+        "frage": "Warum?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 1,
+        "frage": "Wissen Sie in der Regel, was Sie hoffen?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 15,
+        "frage": "Wenn Sie jemand in einer unheilbaren Krankheit wissen: machen Sie ihm dann Hoffnungen, die Sie selber als Trug erkennen?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 26,
+        "frage": "Gesetzt den Fall, Sie glauben an einen Gott: kennen Sie ein Anzeichen dafür, dass er Humor hat?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 18,
+        "frage": "Was tun Sie für Geld nicht?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 21,
+        "frage": "Gibt es Freundschaft ohne Affinität im Humor?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 23,
+        "frage": "Auch Soldaten auf fremdem Territorium fallen bekanntlich für die Heimat: wer bestimmt, was Sie der Heimat schulden?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 18,
+        "frage": "Wogegen sind Sie nicht versichert?"
+    },
+    {
+        "szene": 1,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 19,
+        "frage": "Wissen Sie, wo Sie begraben sein möchten?"
+    },
+
+
+
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 1",
+        "nummer": 18,
+        "frage": "Wenn Sie sich beiläufig vorstellen, Sie wären nicht geboren worden: beunruhigt Sie diese Vorstellung?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 1,
+        "frage": "Tun Ihnen die Frauen leid?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 3,
+        "frage": "Beneiden Sie manchmal Tiere, die ohne Hoffnung auszukommen scheinen, z.B. Fische in einem Aquarium?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 22,
+        "frage": "Hoffen Sie auf ein Jenseits?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 5,
+        "frage": "Wieviel Geld möchten Sie besitzen?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 20,
+        "frage": "Möchten Sie eine reiche Frau?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 24,
+        "frage": "Wenn eine langjährige Freundschaft sich verflüchtigt, bedauern Sie dann, dass Freundschaft einmal bestanden hat?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 17,
+        "frage": "Wann fühlen Sie sich als Vater wohler: a. allein mit dem Kind? b. wenn die Mutter dabei ist?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 2,
+        "frage": "Wem gehört Ihres Erachtens beispielsweise die Luft?"
+    },
+    {
+        "szene": 2,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 23,
+        "frage": "Was gefällt Ihnen am Neuen Testament?"
+    },
+
+
+
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 5,
+        "frage": "Welche Probleme löst die gute Ehe?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 7,
+        "frage": "Befremdet Sie eine kluge Lesbierin?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 5,
+        "frage": "Welche Hoffnung haben Sie aufgegeben?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 9,
+        "frage": "Kennen Sie Tiere mit Humor?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 1,
+        "frage": "Halten Sie sich für einen guten Freund?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 2,
+        "frage": "Mögen Sie Kinder allgemein?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 24,
+        "frage": "Können Sie sich ohne Kinder vorstellen?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 9,
+        "frage": "Erleben Sie einen Hund als Eigentum?"
+    },
+    {
+        "szene": 3,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 1,
+        "frage": "Haben Sie Angst vor dem Tod und seit welchem Lebensjahr?"
+    },
+
+
+
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 2",
+        "nummer": 19,
+        "frage": "Wenn Ihre derzeitige Ehe als glücklich zu bezeichnen ist: worauf führen Sie das zurück? (Stichworte genügen)"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 14,
+        "frage": "Lernen Sie von einer Liebesbeziehung für die nächste?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 4",
+        "nummer": 8,
+        "frage": "Hoffen Sie angesichts der Weltlage: a. auf die Vernunft? b. auf ein Wunder? c. dass es weitergeht wie bisher?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 13,
+        "frage": "Können Sie sich eine Ehe ohne Humor vorstellen?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 6",
+        "nummer": 15,
+        "frage": "Fürchten Sie sich vor den Armen?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 4,
+        "frage": "Wollten Sie damals Vater werden?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 2,
+        "frage": "Hat Heimat für Sie eine Flagge?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 10",
+        "nummer": 12,
+        "frage": "Wie stellen Sie sich Armut vor?"
+    },
+    {
+        "szene": 4,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 4,
+        "frage": "Möchten Sie unsterblich sein?"
+    },
+
+
+
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 3",
+        "nummer": 23,
+        "frage": "Und warum nicht?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 5",
+        "nummer": 22,
+        "frage": "Was ertragen Sie nur mit Humor?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 7",
+        "nummer": 10,
+        "frage": "Was fürchten Sie mehr: das Urteil von einem Freund oder das Urteil von Feinden?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 8",
+        "nummer": 11,
+        "frage": "Fühlen Sie Blutsverwandtschaft?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 9",
+        "nummer": 20,
+        "frage": "Kann Ideologie zu einer Heimat werden?"
+    },
+    {
+        "szene": 5,
+        "fragebogen": "Fragebogen 11",
+        "nummer": 16,
+        "frage": "Haben Sie schon Tote geküsst?"
+    }
+]
+    
+
+  
+
+

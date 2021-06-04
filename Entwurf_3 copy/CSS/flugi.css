@@ -1,0 +1,65 @@
+.button_reload{
+    position: absolute;
+    top: -150vh;
+    left: 10vh;
+    z-index:100000000;
+}
+
+
+.container_flugi{
+/* position: relative; */
+background-color: none;
+}
+
+.flugi_float{
+position: relative;
+z-index: 6;
+}
+
+.flugi{
+position: relative;
+top: -190vh;
+width: 60%;
+}
+
+.wolken{
+    z-index: 7;
+    position: absolute;
+    top: -170vh;
+    left: 150vw;
+}
+.wolke1{
+    position: relative;
+    width: 20vw;
+    z-index: 7;
+    top: 20vh;
+}
+.wolke2{
+    position: relative;
+    z-index: 10;
+    width: 20vw;
+    top: 30vh;
+}
+.wolke3{
+    position: absolute;
+    z-index: 17;
+    width: 25vw;
+    top: 30vh;
+}
+
+/* Fragen & Switcher */
+#containerFrage5{
+    position: absolute;
+    top: -150vh;
+    left: 7vw;
+    width: 18%;
+    z-index: 5;
+    transform: rotate(-15deg) scale(0.8);
+    transform-origin: 50% 0%;
+    
+}
+#frage_switcher5{
+    position: absolute;
+    top: -55vh;
+    left: 30vw;
+}

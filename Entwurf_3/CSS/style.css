@@ -35,7 +35,7 @@ body {
     height:5vw;
     border: none;
     border-radius: 50%;
-    background-image: url("/Entwurf_3/images/imageBody/Puls.png");
+    background-image: url("../images/imageBody/Puls.png");
     background-size: cover;
     cursor: pointer;
     animation: pulse 1.5s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -133,8 +133,3 @@ body {
 
 
 
-@font-face {
-    font-family: Sectra;
-    font-weight: medium;
-    src: url("/Entwurf_3/fonts/GT-Sectra-Display-Medium.woff") format("opentype");
-}
