@@ -47,7 +47,7 @@ h1 {
 }
 
 .cloud {
-    background-image: url("/Entwurf_3/images/imagesHero/Wolke-1.png");
+    background-image: url("../images/imagesHero/Wolke-1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
